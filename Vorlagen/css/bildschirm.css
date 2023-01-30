@@ -1,6 +1,6 @@
 .abstand{margin-left:50px;}
 .lightgray{background-color: purple;}
-.Hintergrund{background-image: url(../Software/Bilder/Hintergrund_....jpg);
+.Hintergrund{background-image: url("Bilder/Duel.jpg");
     background-size: cover;
 background-repeat: repeat;}
 
@@ -11,6 +11,8 @@ body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
+      background-image: url(../Bilder/Yu-Gi-Oh-Tribute-Art-Show.jpg);
+      background-repeat: cover;
   }
   h2 {
       font-size: 24px;
@@ -27,9 +29,10 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #f4511e;
+      background-image: url(../Bilder/Duel.jpg);
+      background-repeat: repeat-x;
       color: #fff;
-      padding: 100px 25px;
+      padding: 200px 100px;
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
@@ -91,7 +94,7 @@ body {
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: black;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -118,12 +121,12 @@ body {
 border-color: #f4511e;}
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: purple;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
-      letter-spacing: 4px;xs
+      letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
   }
@@ -131,7 +134,7 @@ border-color: #f4511e;}
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: black  !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
