@@ -10,14 +10,21 @@ background-repeat: repeat;}
 body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-      color: #818181;
-      background-image: url(../Bilder/Yu-Gi-Oh-Tribute-Art-Show.jpg);
-      background-repeat: cover;
+      color: red;
+      background-image: url(../Bilder/Cx5EzPrUcAEtALZ.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+  h1 {
+      font-size: 40px;
+      color: blueviolet;
+      font-style: italic;
   }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: green;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -121,7 +128,7 @@ body {
 border-color: #f4511e;}
   .navbar {
       margin-bottom: 0;
-      background-color: purple;
+      background-color: darkblue;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
