@@ -35,6 +35,14 @@ body {
       font-weight: 400;
       margin-bottom: 30px;
   }  
+  h5 {
+      font-size: 50px;
+      color: purple;
+  }
+  p {
+      font-size: 24px;
+      color: yellow;
+  }
   .jumbotron {
       background-image: url(../Bilder/Duel.jpg);
       background-repeat: repeat-x;
@@ -46,7 +54,7 @@ body {
       padding: 60px 50px;
   }
   .bg-grey {
-      background-color: #f6f6f6;
+      background-color: purple;
   }
   .logo-small {
       color: #f4511e;
